@@ -1,0 +1,8 @@
+{
+  "title": "Glemt adgangskode",
+  "emailPlaceholder": "E-mail eller telefon *",
+  "emailError": "Brugernavn er påkrævet.",
+  "buttonCTA": "Nulstil adgangskode",
+  "loginLink": "Log ind",
+  "registerLink": "Opret en konto"
+}

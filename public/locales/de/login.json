@@ -1,6 +1,10 @@
 {
-  "languageSelect": "Vælg sprog",
-  "help": "Hjælp",
-  "privacy": "Privatliv",
-  "term": "Semester"
+  "title": "Log ind",
+  "emailPlaceholder": "E-mail eller telefon *",
+  "passwordPlaceholder": "Adgangskode *",
+  "buttonCTA": "Log ind",
+  "forgotLink": "Glemt adgangskode?",
+  "registerLink": "Opret en konto",
+  "usernameError": "Brugernavn er påkrævet.",
+  "passwordError": "Adgangskode kræves."
 }

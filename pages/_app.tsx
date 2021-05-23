@@ -29,8 +29,8 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <Fragment>
       <Head>
-        <title>Template</title>
-        <meta name="description" content="Template Generator" />
+        <title>Kids Loop</title>
+        <meta name="description" content="Kids Loop" />
       </Head>
       <IdProvider>
         <ThemeProvider

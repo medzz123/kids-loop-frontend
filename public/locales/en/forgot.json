@@ -1,0 +1,8 @@
+{
+  "title": "Forgot Password",
+  "emailPlaceholder": "Email or Phone *",
+  "emailError": "Email or phone is required.",
+  "buttonCTA": "Reset Password",
+  "loginLink": "Sign In",
+  "registerLink": "Create an account"
+}

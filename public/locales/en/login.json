@@ -5,6 +5,6 @@
   "buttonCTA": "Sign In",
   "forgotLink": "Forgot Password?",
   "registerLink": "Create an account",
-  "usernameError": "Username is required.",
+  "usernameError": "Email or phone is required.",
   "passwordError": "Password is required."
 }

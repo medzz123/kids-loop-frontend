@@ -2,9 +2,9 @@ import { styled } from '@theme/config';
 
 export const AuthenticationTemplateContainer = styled('div', {
   width: '$full',
+  m: 'auto',
 
   '@bp480': {
-    m: 'auto',
     maxWidth: '$xs',
     minWidth: '$xs',
   },
@@ -23,6 +23,11 @@ export const Elevation = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   mb: '$12',
+  mx: '$12',
+
+  '@bp480': {
+    mx: '$0',
+  },
 });
 
 export const ActionsContainer = styled('div', {
