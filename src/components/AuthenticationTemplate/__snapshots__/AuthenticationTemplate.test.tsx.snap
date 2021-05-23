@@ -35,7 +35,7 @@ exports[`AuthenticationTemplate Test 1`] = `
         </div>
       </div>
       <h1
-        class="sxjgr5a sxjgr5aaxhs1--level-h2 sxjgr5alue9b--weight-bold sxjgr5afxkwo--color-normal sxjgr5a0o7ux--align-left sxjgr5ayyv8n--spacing-large"
+        class="sx3wn9e sx3wn9eaxhs1--level-h2 sx3wn9elue9b--weight-bold sx3wn9efxkwo--color-normal sx3wn9e0o7ux--align-left sx3wn9eyyv8n--spacing-large"
         data-testid="text"
       >
         Sign in
@@ -66,7 +66,7 @@ exports[`AuthenticationTemplate Test 1`] = `
           data-state="closed"
           type="button"
         >
-          Select Language
+          languageSelect
            
           <i
             class="sx03kze sx03kze-8rfvp gg-chevron-down"
@@ -80,19 +80,19 @@ exports[`AuthenticationTemplate Test 1`] = `
           class="sx28ds4 sx28ds4fxkwo--type-secondary"
           data-testid="link"
         >
-          Help
+          help
         </a>
         <a
           class="sx28ds4 sx28ds4fxkwo--type-secondary"
           data-testid="link"
         >
-          Privacy
+          privacy
         </a>
         <a
           class="sx28ds4 sx28ds4fxkwo--type-secondary"
           data-testid="link"
         >
-          Term
+          term
         </a>
       </div>
     </div>

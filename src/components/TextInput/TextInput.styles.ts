@@ -9,4 +9,16 @@ export const StyledTextInput = styled('input', {
   outline: 'none',
   fontSize: '$sizes$14',
   fontFamily: '$inter',
+  width: '$full',
+
+  variants: {
+    color: {
+      error: {
+        border: '$sizes$1 solid $colors$error',
+      },
+      normal: {
+        border: '$sizes$1 solid $colors$grey100',
+      },
+    },
+  },
 });

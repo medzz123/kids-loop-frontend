@@ -44,7 +44,7 @@ export const TextContainer = styled('p', {
         color: '$hiContrast',
       },
       error: {
-        color: '$hiContrast',
+        color: '$error',
       },
       info: {
         color: '$hiContrast',

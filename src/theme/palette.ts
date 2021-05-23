@@ -4,7 +4,7 @@ export const light = {
   primary: '#4169e1',
   accent: '#000080',
   shadow: '0px 5px 20px rgba(0, 0, 0, 0.1)',
-
+  error: '#D95852',
   grey100: '#bdbdbd',
 };
 

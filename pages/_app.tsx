@@ -2,10 +2,12 @@ import '@theme/icons.css';
 
 import environment from '@lib/environment';
 import { pageView } from '@lib/gtag';
+import { IdProvider } from '@radix-ui/react-id';
 import { darkTheme, globalStyles } from '@theme/config';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import Router from 'next/router';
+import { appWithTranslation } from 'next-i18next';
 import { ThemeProvider } from 'next-themes';
 import React, { Fragment } from 'react';
 import { QueryClient, QueryClientProvider } from 'react-query';
@@ -30,20 +32,22 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         <title>Template</title>
         <meta name="description" content="Template Generator" />
       </Head>
-      <ThemeProvider
-        attribute="class"
-        value={{ light: 'light-theme', dark: darkTheme.className }}
-        defaultTheme="system"
-      >
-        <QueryClientProvider client={queryClientRef.current}>
-          <Hydrate state={pageProps.dehydratedState}>
-            <Component {...pageProps} />
-            <ReactQueryDevtools initialIsOpen={false} />
-          </Hydrate>
-        </QueryClientProvider>
-      </ThemeProvider>
+      <IdProvider>
+        <ThemeProvider
+          attribute="class"
+          value={{ light: 'light-theme', dark: darkTheme.className }}
+          defaultTheme="system"
+        >
+          <QueryClientProvider client={queryClientRef.current}>
+            <Hydrate state={pageProps.dehydratedState}>
+              <Component {...pageProps} />
+              <ReactQueryDevtools initialIsOpen={false} />
+            </Hydrate>
+          </QueryClientProvider>
+        </ThemeProvider>
+      </IdProvider>
     </Fragment>
   );
 };
 
-export default MyApp;
+export default appWithTranslation(MyApp);

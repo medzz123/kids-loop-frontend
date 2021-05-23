@@ -1,0 +1,10 @@
+{
+  "title": "Sign In",
+  "emailPlaceholder": "Email or Phone *",
+  "passwordPlaceholder": "Password *",
+  "buttonCTA": "Sign In",
+  "forgotLink": "Forgot Password?",
+  "registerLink": "Create an account",
+  "usernameError": "Username is required.",
+  "passwordError": "Password is required."
+}

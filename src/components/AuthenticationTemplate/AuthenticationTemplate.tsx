@@ -5,6 +5,7 @@ import Text from '@components/Text';
 import ThemeSwitch from '@components/ThemeSwitch';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 import React, { FunctionComponent } from 'react';
 
 import { AuthenticationTemplateProps } from './AuthenticationTemplate.models';
@@ -19,6 +20,8 @@ const AuthenticationTemplate: FunctionComponent<AuthenticationTemplateProps> = (
   const { title, children } = props;
 
   const router = useRouter();
+
+  const { t } = useTranslation('common', { useSuspense: false });
 
   const changeLocale = (locale: 'en' | 'de') => {
     router.push(router.asPath, router.asPath, { locale: locale });
@@ -41,7 +44,7 @@ const AuthenticationTemplate: FunctionComponent<AuthenticationTemplateProps> = (
             <ThemeSwitch />
           </Box>
           <Menu
-            label="Select Language"
+            label={t('languageSelect')}
             items={[
               {
                 label: 'English',
@@ -56,13 +59,13 @@ const AuthenticationTemplate: FunctionComponent<AuthenticationTemplateProps> = (
         </Box>
         <Box css={{ display: 'flex' }}>
           <Link href="/help" variant="secondary">
-            Help
+            {t('help')}
           </Link>
           <Link href="/privacy" variant="secondary">
-            Privacy
+            {t('privacy')}
           </Link>
           <Link href="/term" variant="secondary">
-            Term
+            {t('term')}
           </Link>
         </Box>
       </ActionsContainer>
