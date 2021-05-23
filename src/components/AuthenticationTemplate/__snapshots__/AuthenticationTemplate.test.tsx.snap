@@ -3,7 +3,7 @@
 exports[`AuthenticationTemplate Test 1`] = `
 <div>
   <div
-    class="sx3vyc4"
+    class="sxb3e0j"
   >
     <div
       class="sxacjun"
@@ -42,7 +42,7 @@ exports[`AuthenticationTemplate Test 1`] = `
       </h1>
     </div>
     <div
-      class="sxkb4vv"
+      class="sxpzlvs"
     >
       <div
         class="sx03kze sx03kze-ju7t4"
@@ -73,6 +73,9 @@ exports[`AuthenticationTemplate Test 1`] = `
           />
         </button>
       </div>
+      <div
+        class="sx03kze sx03kze-pagfp"
+      />
       <div
         class="sx03kze sx03kze-2cs53"
       >

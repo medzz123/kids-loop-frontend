@@ -57,6 +57,7 @@ const AuthenticationTemplate: FunctionComponent<AuthenticationTemplateProps> = (
             ]}
           />
         </Box>
+        <Box css={{ height: '$12' }} />
         <Box css={{ display: 'flex' }}>
           <Link href="/help" variant="secondary">
             {t('help')}

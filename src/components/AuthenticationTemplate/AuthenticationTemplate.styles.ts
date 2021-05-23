@@ -1,9 +1,13 @@
 import { styled } from '@theme/config';
 
 export const AuthenticationTemplateContainer = styled('div', {
-  m: 'auto',
-  maxWidth: '$xs',
-  minWidth: '$xs',
+  width: '$full',
+
+  '@bp480': {
+    m: 'auto',
+    maxWidth: '$xs',
+    minWidth: '$xs',
+  },
 });
 
 export const ImageContainer = styled('div', {
@@ -25,7 +29,12 @@ export const ActionsContainer = styled('div', {
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
+  flexDirection: 'column',
   a: {
     marginLeft: '$12',
+  },
+
+  '@bp480': {
+    flexDirection: 'row',
   },
 });
