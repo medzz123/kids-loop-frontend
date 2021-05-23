@@ -1,0 +1,12 @@
+{
+  "title": "Opret konto",
+  "emailPlaceholder": "E-mail *",
+  "emailError": "E-mail er påkrævet.",
+  "passwordPlaceholder": "Adgangskode *",
+  "passwordError": "Adgangskode er påkrævet.",
+  "namePlaceholder": "Navn *",
+  "nameError": "Navn er påkrævet.",
+  "buttonCTA": "Registrer",
+  "loginLink": "Log ind",
+  "forgotLink": "Har du glemt adgangskode?"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Create Account",
+  "emailPlaceholder": "Email *",
+  "emailError": "Email is required.",
+  "passwordPlaceholder": "Password *",
+  "passwordError": "Password is required.",
+  "namePlaceholder": "Name *",
+  "nameError": "Name is required.",
+  "buttonCTA": "Register",
+  "loginLink": "Sign In",
+  "forgotLink": "Forgot Password?"
+}

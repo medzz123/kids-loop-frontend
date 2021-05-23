@@ -1,8 +1,8 @@
 import { styled } from '@theme/config';
 
-export const HomeContainer = styled('div', {});
-
-export const HomeContent = styled('main', {});
+export const HomeContainer = styled('main', {
+  flexDirection: 'column',
+});
 
 export const TodoCard = styled('div', {
   backgroundColor: '$loContrast',

@@ -36,7 +36,7 @@ const Forgot: NextPage = () => {
                 <Button type="submit">{t('buttonCTA')}</Button>
               </Box>
               <Box css={{ mb: '$40' }} />
-              <Link href="/forgot">{t('registerLink')}</Link>
+              <Link href="/register">{t('registerLink')}</Link>
             </Form>
           )}
         </Formik>
