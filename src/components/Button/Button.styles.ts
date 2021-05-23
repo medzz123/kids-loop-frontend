@@ -16,4 +16,34 @@ export const ButtonContainer = styled('button', {
   '&:hover, &:focus': {
     boxShadow: '0 0 0 $sizes$2 $colors$success',
   },
+  '&:disabled': {
+    backgroundColor: '$grey800',
+    cursor: 'default',
+  },
+  position: 'relative',
+});
+
+export const TextContainer = styled('span', {
+  transition: 'all 200ms ease',
+  variants: {
+    hide: {
+      hidden: {
+        opacity: 0,
+      },
+      visible: {
+        opacity: 1,
+      },
+    },
+  },
+});
+
+export const SpinnerContainer = styled('div', {
+  position: 'absolute',
+  left: '$half',
+  top: '$half',
+  transform: 'translate(-$sizes$half, -$sizes$half)',
+  svg: {
+    width: '$20',
+    height: '$20',
+  },
 });

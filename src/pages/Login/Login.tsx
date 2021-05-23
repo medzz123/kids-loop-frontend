@@ -66,7 +66,9 @@ const Login: NextPage = () => {
                   css={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
                 >
                   <Link href="/forgot">{t('forgotLink')}</Link>
-                  <Button type="submit">{t('buttonCTA')}</Button>
+                  <Button busy={loginMutation.isLoading} type="submit">
+                    {t('buttonCTA')}
+                  </Button>
                 </Box>
                 <Box css={{ mb: '$40' }} />
                 <Link href="/forgot">{t('registerLink')}</Link>

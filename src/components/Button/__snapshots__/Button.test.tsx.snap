@@ -3,11 +3,15 @@
 exports[`Button Test 1`] = `
 <div>
   <button
-    class="sxdxa16"
+    class="sxexqz4"
     data-testid="button"
     type="button"
   >
-    Hello
+    <span
+      class="sxmjyut sxmjyut8iuhr--hide-visible"
+    >
+      Hello
+    </span>
   </button>
 </div>
 `;

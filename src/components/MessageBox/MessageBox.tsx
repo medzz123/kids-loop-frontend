@@ -9,7 +9,9 @@ const MessageBox: FunctionComponent<MessageBoxProps> = (props) => {
 
   return (
     <MessageBoxContainer type={type} data-testid="messageBox">
-      <Text mb="none">{children}</Text>
+      <Text mb="none" level="info">
+        {children}
+      </Text>
     </MessageBoxContainer>
   );
 };
