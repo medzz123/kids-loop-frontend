@@ -13,7 +13,7 @@ export const { css, styled, global, theme, getCssString } = createCss({
     fontSizes: fontSizes,
     fontWeights: fontWeights,
     fonts: {
-      inter: 'Inter, system-ui',
+      inter: 'Inter, sans-serif',
     },
     zIndices: zIndices,
   },
@@ -103,9 +103,19 @@ export const { css, styled, global, theme, getCssString } = createCss({
 
 export const globalStyles = global({
   '*, ::before, ::after': { boxSizing: 'border-box' },
-  body: { margin: 0, backgroundColor: '$background' },
-  html: {
+  body: { margin: 0, backgroundColor: '$loContrast' },
+  '*': {
     fontFamily: '$inter',
+  },
+  html: {
+    display: 'flex',
+    minHeight: '$full',
+  },
+  'body, #__next, main': {
+    display: 'flex',
+    flex: 1,
+    height: 'auto',
+    minHeight: 'auto',
   },
 });
 

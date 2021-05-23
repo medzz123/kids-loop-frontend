@@ -1,6 +1,5 @@
 import '@theme/icons.css';
 
-import ThemeSwitch from '@components/ThemeSwitch';
 import environment from '@lib/environment';
 import { pageView } from '@lib/gtag';
 import { darkTheme, globalStyles } from '@theme/config';
@@ -42,7 +41,6 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
             <ReactQueryDevtools initialIsOpen={false} />
           </Hydrate>
         </QueryClientProvider>
-        <ThemeSwitch />
       </ThemeProvider>
     </Fragment>
   );

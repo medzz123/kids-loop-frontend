@@ -1,15 +1,12 @@
 import { styled } from '@theme/config';
 
 export const ThemeSwitchContainer = styled('button', {
-  backgroundColor: '$text',
-  color: '$background',
+  backgroundColor: 'transparent',
+  color: '$primary',
   padding: '$0',
-  size: '$32',
+  size: '$24',
   br: '$sizes$half',
   center: 'row',
-  position: 'fixed',
-  bottom: '$24',
-  right: '$24',
   cursor: 'pointer',
   outline: 'none',
   border: 'none',

@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthenticationTemplate Test 1`] = `
+<div>
+  <div
+    class="sx3vyc4"
+  >
+    <div
+      class="sxacjun"
+      data-testid="authenticationTemplate"
+    >
+      <div
+        class="sxvj4o5"
+      >
+        <div
+          style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+        >
+          <div
+            style="box-sizing: border-box; display: block; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              role="presentation"
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+              style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+            />
+          </div>
+          <noscript />
+          <img
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
+        </div>
+      </div>
+      <h1
+        class="sxjgr5a sxjgr5aaxhs1--level-h2 sxjgr5alue9b--weight-bold sxjgr5afxkwo--color-normal sxjgr5a0o7ux--align-left sxjgr5ayyv8n--spacing-large"
+        data-testid="text"
+      >
+        Sign in
+      </h1>
+    </div>
+    <div
+      class="sxkb4vv"
+    >
+      <div
+        class="sx03kze sx03kze-ju7t4"
+      >
+        <div
+          class="sx03kze sx03kze-ordkl"
+        >
+          <button
+            class="sxd7l8i"
+            data-testid="themeSwitch"
+            type="button"
+          >
+            <i
+              class="sx03kze sx03kze-s82hm gg-sun"
+            />
+          </button>
+        </div>
+        <button
+          aria-haspopup="menu"
+          class="sxqt3zu"
+          data-state="closed"
+          type="button"
+        >
+          Select Language
+           
+          <i
+            class="sx03kze sx03kze-8rfvp gg-chevron-down"
+          />
+        </button>
+      </div>
+      <div
+        class="sx03kze sx03kze-2cs53"
+      >
+        <a
+          class="sx28ds4 sx28ds4fxkwo--type-secondary"
+          data-testid="link"
+        >
+          Help
+        </a>
+        <a
+          class="sx28ds4 sx28ds4fxkwo--type-secondary"
+          data-testid="link"
+        >
+          Privacy
+        </a>
+        <a
+          class="sx28ds4 sx28ds4fxkwo--type-secondary"
+          data-testid="link"
+        >
+          Term
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

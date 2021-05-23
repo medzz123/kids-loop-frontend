@@ -41,16 +41,16 @@ export const TextContainer = styled('p', {
     },
     color: {
       success: {
-        color: '$success',
+        color: '$hiContrast',
       },
       error: {
-        color: '$error',
+        color: '$hiContrast',
       },
       info: {
-        color: '$main',
+        color: '$hiContrast',
       },
       normal: {
-        color: '$text',
+        color: '$hiContrast',
       },
     },
     align: {

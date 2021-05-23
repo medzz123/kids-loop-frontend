@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput Test 1`] = `
+<div>
+  <input
+    class="sx78b1n"
+    data-testid="textInput"
+    value=""
+  />
+</div>
+`;

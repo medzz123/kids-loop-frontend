@@ -1,9 +1,9 @@
 import { styled } from '@theme/config';
 
-export const AboutContainer = styled('div', {
+export const ForgotContainer = styled('div', {
   backgroundColor: '$purple600',
 });
 
-export const AboutContent = styled('div', {
+export const ForgotContent = styled('div', {
   backgroundColor: '$purple600',
 });

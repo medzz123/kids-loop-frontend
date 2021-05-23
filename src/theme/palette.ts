@@ -1,20 +1,15 @@
 export const light = {
-  main: '#313C60',
-  text: '#262835',
-  background: '#FBFBFB',
-  error: '#D95852',
-  warningLo: '#FFF8E4',
-  warningHi: '#FF9C00',
-  success: '#0BA866',
-  hiContrast: '#0B0D0E',
+  hiContrast: '#000000',
   loContrast: '#FFFFFF',
-  shadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px',
+  primary: '#4169e1',
+  accent: '#000080',
+  shadow: '0px 5px 20px rgba(0, 0, 0, 0.1)',
+
+  grey100: '#bdbdbd',
 };
 
 export const dark = {
-  main: '#313C60',
-  text: '#FBFBFB',
-  background: '#262835',
+  shadow: 'rgba(0, 0, 0, 0.6) 0px 5px 20px',
   hiContrast: '#EDEDEE',
   loContrast: '#131516',
 };
