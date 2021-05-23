@@ -8,8 +8,20 @@ module.exports = {
     '@storybook/addon-knobs',
     '@storybook/addon-viewport/register',
   ],
+  core: {
+    builder: 'webpack5',
+  },
   webpackFinal: async (config) => {
     config.resolve.plugins = [new TsconfigPathsPlugin()];
+
+    config.resolve.fallback = {
+      fs: false,
+      tls: false,
+      net: false,
+      module: false,
+      path: require.resolve('path-browserify'),
+    };
+
     return config;
   },
 };
